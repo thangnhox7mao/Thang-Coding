@@ -1,0 +1,62 @@
+body {
+    width: 100%;
+    background-color: navy;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p {
+    font-size: 25px;
+    color: blueviolet;
+    background-color: aqua;
+    text-align: center;
+}
+   
+.class1 {
+    width: 30%;
+    height: 200px;
+    align-items: center;
+    display: flex;
+    background-color: brown;
+}
+
+p1 { 
+     font-size: 25px;
+     color: red;
+     background-color: purple;
+     text-align: center;
+
+}
+
+.class1 > a {
+    color: blanchedalmond;
+    background-color: crimson;
+    padding: 20px;
+}
+
+.class2 {
+    width: 30%;
+    background-color: blue;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+p2 {
+    font-size: 160px;
+   background-color: green;
+   text-align: center; 
+   color: green; 
+   
+}
+.class3 {
+    width: 30%;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    align-items: center; 
+}
