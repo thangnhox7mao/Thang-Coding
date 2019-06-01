@@ -98,18 +98,18 @@ body {
     height: 100%;
 }
 
-.c-mainLeft .c-content1 .c-content1-img img:hover {
+.c-content1 .c-content1-img img:hover {
     opacity: 0.8;
 }
 
-.c-mainLeft .c-content1 .c-content1-text {
+.c-content1 .c-content1-text {
     height: 100%;
     font-weight: bold;
     color: #000000;
     text-decoration: none;
 }
 
-.c-mainLeft .c-content1 .c-content1-text:hover {
+.c-content1 .c-content1-text:hover {
     color:#4267B2;
 }
 .c-mainCenter {
@@ -124,24 +124,23 @@ body {
 .c-mainCenter .c-content1 .c-content1-text {
     height: 100%;
     font-weight: bold;
-    color: #000000;
     text-decoration: none;
     font-size: 25px;
     margin-left: 10%;
     margin-right: 10%;
 }
+.c-mainCenter .c-content1 .c-content1-img img:hover {
+    opacity: 1;
+}
 .c-mainRight .c-content1 .c-content1-img img {
     width: 338px; 
     height: 280px; 
-    margin-left: 10%;
 }
 .c-mainRight .c-content1 .c-content1-text {
     height: 100%;
     font-weight: bold;
-    color: #000000;
     text-decoration: none;
     font-size: 25px;
-    display: inline-block
-    text-align: center
+    text-align: center;
 }
  
