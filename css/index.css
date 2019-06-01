@@ -186,7 +186,11 @@ body {
     font-size: 15px;
     font-weight: 600;
     color: #333;
+    text-decoration: none;
     text-transform: uppercase;
+}
+.header ul li a:hover {
+    color: #dd3333;
 }
 .section-content1, .section-content2 {
     display: flex;
