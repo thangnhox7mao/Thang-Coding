@@ -143,4 +143,107 @@ body {
     font-size: 25px;
     text-align: center;
 }
- 
+.yellowB {
+    background-color: #ffde76;
+    width: 1250px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header h3 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #000;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    padding: 0 15px 0 20px;
+    margin: 6px 0 4px 0;    
+}
+.header h3:before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    left: 5px;
+    top: 11%;
+    bottom: 12%;
+    transform: skew(-20deg);
+    background-color: #dd3333;
+
+}
+.header ul {
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+    top: -4px;
+}
+.header ul li {
+    display: inline-block;
+    margin-right: 30px;
+}
+.header ul li a {
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+}
+.section-content1, .section-content2 {
+    display: flex;
+    width: 100%;
+    
+}
+.section-content1 {
+    margin-bottom: 22px;
+}
+.section-content2 {
+    justify-content: space-between;
+}
+.section-content1 .content1 .content1-img img {
+    width: 100%;
+    height: 359px;
+} 
+.section-content1 .content1 .content1-img img:hover {
+    opacity: 0.8;
+}
+.section-content1 .content1 .content1-text {
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    font-size: 25px;
+    color: white;
+    width: 399px;
+    height: 74;
+    font-weight: bold;
+    text-decoration: none;
+    
+}  
+
+.section-content1 .content1 {
+    width: 52%;
+    position: relative;
+}
+
+.content2  {
+    margin-left: 22px;
+    width: 25%;
+}
+.content2 .content2-img img:hover {
+    opacity: 0.8;
+}
+.section-content2 .content2:first-child {
+    margin-left: 0px;
+}
+.content2 .content2-text {
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;   
+}
+.content2 .content2-text:hover {
+    color: blue;
+}
+.content2 .content2-img img {
+    width: 100%;
+    height: 172px;
+}
