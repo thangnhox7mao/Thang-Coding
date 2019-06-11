@@ -7,7 +7,7 @@ body {
     width: 950px;
     margin: 0 auto;
 }
-
+/* this is nav */
 .c-navi {
     background-color: #000000;
 }
@@ -40,7 +40,8 @@ body {
 .c-navi img {
     width: 100px;
 }
-
+/* end of nav */
+/* this is content1 */
 .c-news {
     display: flex;
 }
@@ -141,8 +142,10 @@ body {
     font-weight: bold;
     text-decoration: none;
     font-size: 25px;
-    text-align: center;
+    text-align: center;   
 }
+/* end of content1 */
+/* this is content2 */
 .yellowB {
     background-color: #ffde76;
     width: 1250px;
@@ -250,4 +253,81 @@ body {
 .content2 .content2-img img {
     width: 100%;
     height: 172px;
+}
+/* end of content2 */
+/* this is content3 */
+.header1 h2 {
+    font-size: 2em;
+    font-weight: 600;
+    color: #000;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    padding: 0 15px 0 20px;
+    margin: 6px 0 4px 0;    
+}
+.header1 h2:before {
+    content: '';
+    position: absolute;
+    width: 5px;
+    left: 5px;
+    top: 11%;
+    bottom: 12%;
+    transform: skew(-20deg);
+    background-color: #dd3333;
+}
+.foryou {
+    padding-top: 50px;
+}
+.sub-heading a {
+    text-decoration: none;  
+    color: #008cc5;  
+}
+.sub-heading {
+    font-size: 1.2em;
+    color: #888;
+    margin-top: 3px;
+}
+.sub-heading a:hover {
+    opacity: 1;
+}
+.foryou-left .c-mainLeft .c-content1 .c-content1-img img{
+    width: 100%;
+    height: 172px;
+}
+.foryou .wrapper {
+    
+    display: flex;
+}
+.foryou .foryou-left {
+    width: 70%;
+}
+.foryou .foryou-right {
+    width: 30%;
+}
+.foryou .foryou-left .c-mainLeft {
+    width: 100%;
+}
+.foryou-left .c-mainLeft .c-content1 .c-content1-img {
+    width: 30%;
+}
+.foryou-left .c-mainLeft .c-content1 .c-content1-text {
+    font-size: 25px;
+}
+.c-mainLeft .c-content1-paragraph .time {
+     color: #aaa;
+}
+.c-mainLeft .c-content1-paragraph .date {
+    display: inline;
+    margin-left: 3px;
+    font-size: 13px;   
+}
+.c-mainLeft .c-content1-paragraph .article-summary {
+    color: #888;
+    margin-top: 8px;
+}
+.foryou .foryou-right .c-content2-img img {
+    width: 300px;
+    height: 600px;
+    margin-left: 20px;
 }
